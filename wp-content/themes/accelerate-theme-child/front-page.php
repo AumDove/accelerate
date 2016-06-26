@@ -12,7 +12,7 @@
  * @since Accelerate Marketing 1.0
  */
 
-get_header(); ?>
+get_header();
 
 <section class="home-page">
 	<div class="site-content">
