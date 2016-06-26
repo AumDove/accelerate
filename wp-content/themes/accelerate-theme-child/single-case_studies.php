@@ -11,8 +11,6 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-<<<<<<< HEAD
-<<<<<<< HEAD
 		
 		<?php while ( have_posts() ) : the_post();
 
@@ -51,17 +49,12 @@ get_header(); ?>
 
 				
 	</article>
-=======
-=======
->>>>>>> parent of 7fc0338... added advanced custom fields to case studies
+
 			<?php while ( have_posts() ) : the_post(); ?>
 			<article class="case-study">
 				<?php the_content(); ?>
 			</article>
-<<<<<<< HEAD
->>>>>>> parent of 7fc0338... added advanced custom fields to case studies
-=======
->>>>>>> parent of 7fc0338... added advanced custom fields to case studies
+
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
