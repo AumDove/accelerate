@@ -23,7 +23,6 @@
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
-<<<<<<< HEAD
 
 #masthead nav ul li {
 	float: left;
@@ -37,8 +36,6 @@ ul#menu-top-nav {
 /* Blog post on Homepage */
 
 
-=======
->>>>>>> parent of f80153a... added blog post to front page
 .blog-post {
 	width: 50%;
 }
@@ -85,4 +82,3 @@ div.case-study-images img {
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
 }
-

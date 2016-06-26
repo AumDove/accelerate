@@ -12,8 +12,9 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 		
-		<?php while ( have_posts() ) : the_post();
-
+		<?php while ( have_posts() ) : the_post(); 
+				
+			$services = get_field('services');
 			$services = get_field('services');
 			$client = get_field('client');
 			$link = get_field('site_link');
@@ -21,13 +22,13 @@ get_header(); ?>
 			$image_2 = get_field('image_2');
 			$image_3 = get_field('image_3'); 
 			$size = "full"; ?>
-				
-				
+			
 	<article class="case-study">
 		<aside class="case-study-sidebar">
 			<h2><?php the_title(); ?></h2>
 			<h5><?php echo $services; ?></h5>
 			<h6>Client: <?php echo $client; ?></h6>
+			
 			
 			<?php the_content(); ?>
 			
@@ -36,25 +37,19 @@ get_header(); ?>
 		
 		<div class="case-study-images">
 			<?php if($image_1) { ?>
-				<?php echo wp_get_attachment_image( $image_1, $size ); ?>
+				<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 			<?php } ?>
 			<?php if($image_2) { ?>
-				<?php echo wp_get_attachment_image( $image_2, $size ); ?>
+				<?php echo wp_get_attachment_image ( $image_2, $size ); ?>
 			<?php } ?>
 			<?php if($image_3) { ?>
-				<?php echo wp_get_attachment_image( $image_3, $size ); ?>
-			<?php } ?>	
-						
-		</div>			
-
-				
+				<?php echo wp_get_attachment_image ( $image_3, $size ); ?>
+			<?php } ?>
+			
+		</div>
+		
 	</article>
-
-			<?php while ( have_posts() ) : the_post(); ?>
-			<article class="case-study">
-				<?php the_content(); ?>
-			</article>
-
+			
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
