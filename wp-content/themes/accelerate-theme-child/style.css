@@ -60,6 +60,60 @@ ul#menu-top-nav {
 	text-transform: uppercase;
 }
 
+/* Case Studies on Homepage */
+
+.site-content {
+    width: 1000px;
+    margin: auto;
+    
+}
+
+ul.homepage-featured-work {
+	list-style-type: none;
+    margin: 0 0 24px 0;
+}
+
+li.individual-featured-work {
+	display: inline-block;
+    margin: 0 5px;
+	
+}
+h3 {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+    line-height: 1.2;
+	margin: 0 0 20px 0;
+}
+
+.featured-work h4 {
+	font-family: 'Montserrat';
+    text-align: center;
+	margin: 0 0 44px 0;
+    
+}
+
+.blog-post h4 {
+    text-align: left;
+}
+
+img {
+	width: 300px;
+    height: 221px;
+	margin: 0 10px;
+}
+
+.blog-post .read-more-link {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
 /* Case Studies */
 
 article.case-study {
