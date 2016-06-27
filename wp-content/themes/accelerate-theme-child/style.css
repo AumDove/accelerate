@@ -108,7 +108,7 @@ h4 {
     color: #45ac9d;
     text-transform: uppercase;
 }
-/* Case Studies */
+/* Case Studies Single*/
 
 article.case-study {
 	margin: 40px 0 0;
@@ -122,11 +122,24 @@ aside.case-study-sidebar {
 
 div.case-study-images {
 	float: left;
-	width: 600px;
-}
-
-div.case-study-images img {
-	
+	width: 610px;
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
 }
+
+
+/* Case Studies Archive Page */
+
+.case-study-sidebar h2 a {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	/*font-weight: 700;*/
+}
+.case-study-sidebar h5 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #a6a6a6;
+	margin: 10px 0 20px;
+}
+
