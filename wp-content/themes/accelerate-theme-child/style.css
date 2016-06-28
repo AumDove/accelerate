@@ -85,7 +85,11 @@ ul.homepage-featured-work {
 	list-style-type: none;
     margin: 0 0 24px 0;
 }
-
+.homepage-featured-work img {
+	width: 300px;
+	height: 221px;
+	
+}
 li.individual-featured-work {
     display: inline-block;
     margin: 0 30px;
