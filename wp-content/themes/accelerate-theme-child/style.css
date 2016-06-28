@@ -76,9 +76,8 @@ a.read-more-link {
 /* Case Studies on Homepage */
 
 .site-content {
-    width: 1100px;
+    width: 1200px;
     margin: auto;
-    
 }
 
 ul.homepage-featured-work {
@@ -133,7 +132,7 @@ article.case-study {
 aside.case-study-sidebar {
 	float: left;
 	width: 340px;
-	margin: 0 40px 0 0;
+	margin: 0 10px 0 65px;
 }
 
 div.case-study-images {
@@ -146,6 +145,10 @@ div.case-study-images {
 
 /* Case Studies Archive Page */
 
+div#primary.site-content {
+	width: 1200px;
+    margin: auto;
+}
 .case-study-sidebar h2 a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
