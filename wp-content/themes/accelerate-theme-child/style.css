@@ -79,7 +79,10 @@ a.read-more-link {
     width: 1200px;
     margin: auto;
 }
-
+/*section.featured-work {
+	width: 610px;
+	margin: auto;
+}*/
 ul.homepage-featured-work {
 	list-style-type: none;
     margin: 0 0 24px 0;
@@ -109,7 +112,6 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
     text-align: center;
 	margin: 0 0 44px 0;
-    
 }
 
 .blog-post h4 {
