@@ -38,6 +38,8 @@ ul#menu-top-nav {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 }
+
+
 /* Blog post on Homepage */
 
 
@@ -48,15 +50,16 @@ ul#menu-top-nav {
 
 .blog-post h4 {
 	font-size: 18px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Shanti', sans-serif;
 	color: #a6a6a6;
+	text-align: left;
 	text-transform: uppercase;
 }
 
 .blog-post h2 {
 	font-size: 24px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: 1.2px;
 }
 div.blot-post p {
@@ -79,13 +82,13 @@ a.read-more-link {
     width: 1200px;
     margin: auto;
 }
-/*section.featured-work {
+.featured-work section {
 	width: 610px;
 	margin: auto;
-}*/
+}
 ul.homepage-featured-work {
 	list-style-type: none;
-    margin: 0 0 24px 0;
+    margin: 0 0 24px 60px;
 }
 .homepage-featured-work img {
 	width: 300px;
@@ -101,11 +104,11 @@ h3 {
 	text-align: center;
 }
 
-h4 {
+/*h4 {
 	font-size: 20px;
 	text-transform: uppercase;
     line-height: 1.2;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 0;*/
 }
 
 .featured-work h4 {
