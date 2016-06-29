@@ -176,7 +176,13 @@ div.case-study-images {
 
 div#primary.site-content {
 	width: 1200px;
-    margin: auto;
+    margin: 0 125px;
+}
+aside.case-study-sidebar {
+	margin: 20px 40px 0 60px;
+}
+div.case-study-images {
+	margin: 40px 0 40px 0;
 }
 .case-study-sidebar h2 a {
 	font-family: 'Open Sans', sans-serif;
@@ -185,7 +191,7 @@ div#primary.site-content {
 }
 .case-study-sidebar h5 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	color: #a6a6a6;
 	margin: 10px 0 20px;
@@ -194,5 +200,5 @@ div#primary.site-content {
 .case-study-sidebar p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	/*font-weight: 400;*/
+	font-weight: 400;
 }
