@@ -4,3 +4,4 @@ wp-config.php
 .htaccess
 .png
 wp-content/uploads/
+wp-content/upgrade
