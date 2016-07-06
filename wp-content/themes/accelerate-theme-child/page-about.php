@@ -4,6 +4,9 @@
  *
  * 
  *
+ *
+ *
+ *
  * @package WordPress
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 1.0
@@ -28,7 +31,7 @@ get_header(); ?>
 		<h4>Our Services</h4>
 	
 		<ul class="about-services">
-		<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+		<?php query_posts('posts_per_page=3&post_type=our-services'); ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$image_1 = get_field("image_1");
 				$size = "medium";
