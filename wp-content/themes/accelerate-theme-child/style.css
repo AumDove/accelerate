@@ -273,9 +273,11 @@ input#ninja_forms_field_4.ninja-forms-field {
 
 .about-page {
 	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-	height: 300px;
-    margin: 0 0 80px;
-    padding: 100px 0;
+    background-position: center bottom !important;
+    height: 200px;
+    margin: 0 0 80px 0;
+    padding: 70px 0;
+}
 }
 div.about-hero {
 	width: 600px;
@@ -287,10 +289,13 @@ div.about-hero p {
     font-family: "open sans";
     font-size: 24px;
     font-weight: normal;
+	line-height: 1.25em;
 	text-align: center;
     margin: 16px 0 80px;
 }
-
+a.homelink {
+	color: #45ac9d;
+}
 
 /* Services Single Page */
 
@@ -309,4 +314,8 @@ div.services-images {
 	width: 610px;
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
+}
+ul.about-services {
+	list-style-type: none;
+    margin: 0 0 24px 60px;
 }

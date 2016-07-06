@@ -19,7 +19,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='about-hero'>
 				<?php the_content(); ?>
-				<p>Accelerate is a strategy and marketing agency <br>located in the heart of NYC. Our goal is to build <br>businesses by making our clients visible and <br>making their customers smile.</p>
+				<p><a class="homelink" href="http://localhost:35496/">Accelerate</a> is a strategy and marketing agency <br>located in the heart of NYC. Our goal is to build <br>businesses by making our clients visible and <br>making their customers smile.</p>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
@@ -41,7 +41,7 @@ get_header(); ?>
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
 			
-				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+				<!--<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>-->
 			</li>
 			<?php endwhile; // end of the loop. ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
