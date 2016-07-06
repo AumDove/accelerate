@@ -268,3 +268,25 @@ input#ninja_forms_field_4.ninja-forms-field {
     letter-spacing: .5px;
     margin: 0;
 }
+
+/* About Page */
+
+.about-page {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	height: 300px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+div.about-hero {
+	width: 600px;
+	margin: auto;
+	
+}
+div.about-hero p {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+	text-align: center;
+    margin: 16px 0 80px;
+}
