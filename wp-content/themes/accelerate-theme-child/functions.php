@@ -43,7 +43,7 @@
 		)
 	);
 // create a service custom post type
-	register_post_type( 'our-services',
+	register_post_type( 'services',
 		array(
 			'labels' => array(
 				'name' => __( 'Our Services' ),
