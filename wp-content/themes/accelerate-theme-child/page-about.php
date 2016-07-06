@@ -35,18 +35,15 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$image_1 = get_field("image_1");
 				$size = "medium";
-				$services = get_field('services');
+				$services = get_field("services");
 			?>
-			<li class="individual-about-services">
+			<li class="row_1_image">
 				<figure>
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
-			
-				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<figure>
-					<h5><?php echo $services; ?></h5>
-				</figure>
-			</li>
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<h5><?php echo $services; ?></h5>
+				
 			<?php endwhile; // end of the loop. ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
 		</ul>
