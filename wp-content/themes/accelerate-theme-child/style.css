@@ -209,6 +209,9 @@ div#content {
 	width: 700px;
 	margin: 0 125px 0 175px;
 }
+div#content h2 {
+	font-family: 'Open Sans', sans-serif;
+}
 label#ninja_forms_field_1_label {
 	float: left;
 	margin: 0 0 10px 0;
@@ -247,7 +250,18 @@ textarea#ninja_forms_field_3.ninja-forms-field {
 	margin: 0 20px 10px 0;
 	
 }
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-    -webkit-appearance: button;
+input#ninja_forms_field_4.ninja-forms-field {
+	float: right;
+	border: 0;
+    background: #45ac9d;
+    padding: 11px 60px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	/*border-radius: 5px;*/
+    color: #fff;
     cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin: 0;
 }
