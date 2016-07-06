@@ -32,7 +32,10 @@
 ul#menu-top-nav {
     margin: 0;
 }
-
+ul#menu-top-nav.nav-menu a {
+	margin: 0 20px 0 0;
+	text-transform: uppercase;
+}
 .site-title {
 	float: left;
 	font-family: 'Montserrat', sans-serif;
@@ -205,9 +208,9 @@ div.case-study-images {
 
 /* Contact Us Page */
 
-div#content {
+div#primary.site-content.contact-form {
 	width: 700px;
-	margin: 0 125px 0 175px;
+	margin: 0 350px 0 275px;
 }
 div#content h2 {
 	font-family: 'Open Sans', sans-serif;
