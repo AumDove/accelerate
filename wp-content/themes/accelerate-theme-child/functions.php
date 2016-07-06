@@ -51,7 +51,7 @@
 			),
 			'public' => true,
 			'has_archive' => true,
-			'rewrite' => array ('slug' => 'our-services'),
+			'rewrite' => array ('slug' => 'services'),
 		)
 	);	
  }

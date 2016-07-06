@@ -14,7 +14,7 @@ get_header(); ?>
 		
 		<?php while ( have_posts() ) : the_post(); 
 				
-			$services = get_field('services');
+			
 			$services = get_field('services');
 			$client = get_field('client');
 			$link = get_field('site_link');
@@ -27,25 +27,14 @@ get_header(); ?>
 		<aside class="services-sidebar">
 			<h2><?php the_title(); ?></h2>
 			<h5><?php echo $services; ?></h5>
-			<h6>Client: <?php echo $client; ?></h6>
+						
 			
-			
-			<?php the_content(); ?>
-			
-			<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 		</aside>
 		
 		<div class="services-images">
 			<?php if($image_1) { ?>
 				<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
-			<?php } ?>
-			<?php if($image_2) { ?>
-				<?php echo wp_get_attachment_image ( $image_2, $size ); ?>
-			<?php } ?>
-			<?php if($image_3) { ?>
-				<?php echo wp_get_attachment_image ( $image_3, $size ); ?>
-			<?php } ?>
-			
+			<?php } ?>			
 		</div>
 		
 	</article>

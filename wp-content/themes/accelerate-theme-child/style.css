@@ -286,15 +286,26 @@ div.about-hero {
 }
 div.about-hero p {
     color: white;
-    font-family: "open sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: normal;
 	line-height: 1.25em;
 	text-align: center;
     margin: 16px 0 80px;
 }
-a.homelink {
-	color: #45ac9d;
+
+div.about-hero a {
+    color: #45ac9d;
+    text-decoration: none;
+}
+div.site-content.services h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+div.site-content.services p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 10px 0;
 }
 
 /* Services Single Page */
