@@ -109,6 +109,14 @@ get_header(); ?>
 	</div>
 
 </section>
+<section class="about-button">
+	
+	<div>
+		<h2>Interested in working with us?</h2>
+		<a class="button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a>
+	</div>
+	
 
+</section>
 
 <?php get_footer(); ?>

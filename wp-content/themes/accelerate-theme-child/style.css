@@ -48,6 +48,9 @@ ul#menu-top-nav.nav-menu a {
 	clear:both;
 }
 
+div#main.site-main {
+	overflow: auto;
+}
 /************************* Blog post on Homepage *********************/
 
 
@@ -341,7 +344,9 @@ p#services-hero-text {
 	text-align: center;
 	margin: 40px 0;
 }
-
+ul {
+	list-style-type: none;
+}
 ul.services-list {
 	list-style-type: none;
     width: 1200px;
@@ -389,9 +394,12 @@ aside.services-sidebar {
 	width: 340px;
 	margin: 0 10px 0 65px;
 }
+
 aside.services-sidebar p {
+	
 	font-weight: lighter;
 }
+
 div.services-images {
 	float: left;
 	width: 400px;
@@ -400,6 +408,7 @@ div.services-images {
 }
 
 /* *********************Services Archive Page********************** */
+
 article.services-archive {
 	overflow: auto;
 }
@@ -419,5 +428,24 @@ div.services-images-archive {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
 	font-weight: 600;
+}
+
+/* ***********************ABOUT PAGE BUTTON ********************* */
+
+section.about-button div {
+	
+	margin: 80px 0 20px 300px;
+	
+}
+
+section.about-button h2 {
+	float: left;
+	margin: 80px 20px 0 0;
+}
+
+a.button  {
+	float: left;
+	margin: 70px 0 0 20px;
+	padding: 10px 50px;
 }
 
