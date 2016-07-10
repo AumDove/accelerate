@@ -30,30 +30,23 @@ get_header(); ?>
 	<div class="site-content">
 		<h4 id="services-hero-head">Our Services</h4>
 		<p id="services-hero-text">We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services.</p>
-	<ul class="services-list">
-		<?php query_posts('posts_per_page=4&post_type=our-services'); ?>
+		<ul class="services-list">
+		<?php query_posts('posts_per_page=4&post_type=services'); ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$image_1 = get_field("image_1");
 				$size = "medium";
-				$services = get_field("services");
 			?>
-		<li>
-			<figure class="col-sm">
-				<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
-			</figure>
-			<figure class="col-lg">
-				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p><?php echo $services; ?></p>
-				<?php the_content() ; ?>
-			</figure>
-			<figure class="col-lg">
-				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p><?php echo $services; ?></p>
-				<?php the_content() ; ?>
-			</figure>
-			<figure class="col-sm">
-				<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
-			</figure>
+			<li>
+				<figure class="col-sm">
+					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
+				</figure>
+				<figure class="col-lg">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_content() ; ?>
+				</figure>
+				
+			</li>
+			
 			<?php endwhile; // end of the loop. ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
 		</ul>
