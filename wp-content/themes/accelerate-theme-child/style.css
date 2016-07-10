@@ -378,9 +378,9 @@ figure.col-sm-even {
 }
 
 
-/* Services Single Page */
+/* ***********************Services Single Page ****************** */
 
-/*article.services {
+article.services {
 	margin: 40px 0 0 0;
 }
 
@@ -389,12 +389,35 @@ aside.services-sidebar {
 	width: 340px;
 	margin: 0 10px 0 65px;
 }
-
+aside.services-sidebar p {
+	font-weight: lighter;
+}
 div.services-images {
 	float: left;
-	width: 610px;
-	margin-bottom: 50px;
-	border: 1px solid #dddddd;
+	width: 400px;
+	margin: 50px 50px 50px 250px;
+
 }
 
-}*/
+/* *********************Services Archive Page********************** */
+article.services-archive {
+	overflow: auto;
+}
+aside.services-sidebar-archive {
+	float: left;
+	width: 340px;
+	margin: 10px 100px 10px 65px;
+}
+
+div.services-images-archive {
+	float: left;
+    width: 400px;
+    margin: 60px 50px 50px 100px;
+}
+
+.services-sidebar-archive h2 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+}
+

@@ -17,15 +17,15 @@ get_header(); ?>
 		$size = "full";
 		$services = get_field('services');?>
 
-		<article class="case-study">
-			<aside class="case-study-sidebar">
+		<article class="services-archive">
+			<aside class="services-sidebar-archive">
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<h5><?php echo $services; ?></h5>
+				
 				<?php the_excerpt(); ?>
-				<p><strong><a href="<?php the_permalink(); ?>">View Project <span>&rsaquo;</span></strong></p>
+				
 			</aside>
-			<div class="case-study-images">
-				<a href="<?php the_permalink(); ?>">
+			<div class="services-images-archive">
+				
 				<?php if($image_1) { 
 					echo wp_get_attachment_image ( $image_1, $size ); 
 				} ?>
