@@ -48,9 +48,9 @@ ul#menu-top-nav.nav-menu a {
 	clear:both;
 }
 
-div#main.site-main {
+/*div#main.site-main {
 	overflow: auto;
-}
+}*/
 /************************* Blog post on Homepage *********************/
 
 
@@ -447,7 +447,41 @@ section.about-button h2 {
 	float: left;
 	background: none repeat scroll 0 0 #45ac9d;
 	color: #fff;
-	margin: 70px 0 0 20px;
+	font-weight: bold;
+	margin: 70px 0 80px 60px;
 	padding: 10px 50px;
 }
+
+
+/* ***************FUN 404 PAGE ******************************** */
+
+
+#error-content {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	width: auto;
+}
+
+h1.page-title {
+	font-size: 48px;
+	text-align: center;
+}
+
+div.page-wrapper {
+	margin: 10px 0;
+}
+
+div.page-content h2 {
+	color: #fff; 	
+}
+
+div.page-content p {
+	color: #fff;
+	padding: 0 0 30px 0;
+	
+}
+
+div.page-content a {
+	color: #45ac9d;
+}
+
 
