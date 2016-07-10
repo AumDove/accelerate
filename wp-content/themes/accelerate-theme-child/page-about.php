@@ -37,10 +37,10 @@ get_header(); ?>
 				$size = "medium";
 			?>
 			<li>
-				<figure class="col-sm">
+				<figure class="col-sm-odd">
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
-				<figure class="col-lg">
+				<figure class="col-lg-odd">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_content() ; ?>
 				</figure>
@@ -56,11 +56,11 @@ get_header(); ?>
 			?>
 			<li>
 				
-				<figure class="col-lg">
+				<figure class="col-lg-even">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_content() ; ?>
 				</figure>
-				<figure class="col-sm">
+				<figure class="col-sm-even">
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
 			</li>
@@ -74,10 +74,10 @@ get_header(); ?>
 				$size = "medium";
 			?>
 			<li>
-				<figure class="col-sm">
+				<figure class="col-sm-odd">
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
-				<figure class="col-lg">
+				<figure class="col-lg-odd">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_content() ; ?>
 				</figure>
@@ -94,11 +94,11 @@ get_header(); ?>
 			?>
 			<li>
 				
-				<figure class="col-lg">
+				<figure class="col-lg-even">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_content() ; ?>
 				</figure>
-				<figure class="col-sm">
+				<figure class="col-sm-even">
 					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
 				</figure>
 			</li>

@@ -344,22 +344,38 @@ p#services-hero-text {
 
 ul.services-list {
 	list-style-type: none;
-    width: 900px;
+    width: 1200px;
     margin: 0 150px;
+	
 }
 
-/*figure.col-sm {
+figure.col-sm-odd {
+	clear: both;
 	float: left;
 	width: 260px;
-	margin: 20px;
-}*/
+	margin: 15px 0 0 0;
+	
+}
 
-/*figure.col-lg {
+figure.col-lg-odd {
+	
 	float: left;
 	width: 600px;
 	
-}*/
+}
 
+figure.col-lg-even {
+	clear: both;
+	float: left;
+	width: 600px;
+	
+}
+
+figure.col-sm-even {
+	float: left;
+	width: 260px;
+	margin: 15px 0 0 0;
+}
 
 
 /* Services Single Page */
