@@ -31,7 +31,44 @@ get_header(); ?>
 		<h4 id="services-hero-head">Our Services</h4>
 		<p id="services-hero-text">We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services.</p>
 		<ul class="services-list">
-		<?php query_posts('posts_per_page=4&post_type=services'); ?>
+		<?php query_posts('posts_per_page=1&post_type=services&name=one'); ?>
+			<?php while ( have_posts() ) : the_post(); 
+				$image_1 = get_field("image_1");
+				$size = "medium";
+			?>
+			<li>
+				<figure class="col-sm">
+					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
+				</figure>
+				<figure class="col-lg">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_content() ; ?>
+				</figure>
+			</li>
+			
+			<?php endwhile; // end of the loop. ?>
+			<?php wp_reset_query(); // resets the altered query back to the original ?>
+			
+			<?php query_posts('posts_per_page=1&post_type=services&name=two'); //second loop ?>
+			<?php while ( have_posts() ) : the_post(); 
+				$image_1 = get_field("image_1");
+				$size = "medium";
+			?>
+			<li>
+				
+				<figure class="col-lg">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_content() ; ?>
+				</figure>
+				<figure class="col-sm">
+					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
+				</figure>
+			</li>
+			
+			<?php endwhile; // end of the loop. ?>
+			<?php wp_reset_query(); // resets the altered query back to the original ?>
+			
+			<?php query_posts('posts_per_page=1&post_type=services&name=three'); //third loop ?>
 			<?php while ( have_posts() ) : the_post(); 
 				$image_1 = get_field("image_1");
 				$size = "medium";
@@ -45,6 +82,25 @@ get_header(); ?>
 					<?php the_content() ; ?>
 				</figure>
 				
+			</li>
+			
+			<?php endwhile; // end of the loop. ?>
+			<?php wp_reset_query(); // resets the altered query back to the original ?>
+			
+			<?php query_posts('posts_per_page=1&post_type=services&name=four'); //fourth loop ?>
+			<?php while ( have_posts() ) : the_post(); 
+				$image_1 = get_field("image_1");
+				$size = "medium";
+			?>
+			<li>
+				
+				<figure class="col-lg">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<?php the_content() ; ?>
+				</figure>
+				<figure class="col-sm">
+					<?php echo wp_get_attachment_image ( $image_1, $size ); ?>
+				</figure>
 			</li>
 			
 			<?php endwhile; // end of the loop. ?>
