@@ -339,7 +339,7 @@ h4#services-hero-head {
 p#services-hero-text {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	margin: 10px 0;
+	margin: 40px 0;
 }
 
 ul.services-list {
@@ -353,7 +353,7 @@ figure.col-sm-odd {
 	clear: both;
 	float: left;
 	width: 260px;
-	margin: 15px 0 0 0;
+	margin: 15px 40px 40px 0;
 	
 }
 
@@ -374,7 +374,7 @@ figure.col-lg-even {
 figure.col-sm-even {
 	float: left;
 	width: 260px;
-	margin: 15px 0 0 0;
+	margin: 15px 40px 10px 40px;
 }
 
 
