@@ -113,7 +113,7 @@ get_header(); ?>
 	
 	<div>
 		<h2>Interested in working with us?</h2>
-		<a class="button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a>
+		<a class="contact-button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a>
 	</div>
 	
 

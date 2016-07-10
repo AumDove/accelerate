@@ -443,8 +443,10 @@ section.about-button h2 {
 	margin: 80px 20px 0 0;
 }
 
-a.button  {
+.contact-button  {
 	float: left;
+	background: none repeat scroll 0 0 #45ac9d;
+	color: #fff;
 	margin: 70px 0 0 20px;
 	padding: 10px 50px;
 }
