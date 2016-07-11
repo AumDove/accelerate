@@ -64,4 +64,18 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+<section class="recent-tweets">
+	<div class="sidebar-tweets">
+		<h4>Recent Tweet</h4>
+		<h2>@megmillerhilo</h2>
+	</div>
+	<div>
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	</div>
+	<div id="secondary" class="widget-area" role="complementary">
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		<a class="follow-us" href="https://twitter.com/megmillerhilo">Follow Us <span>&rsaquo;</span></a>
+	</div>
+</section>
+<?php endif; ?>
 <?php get_footer(); ?>

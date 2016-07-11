@@ -55,7 +55,9 @@ ul#menu-top-nav.nav-menu a {
 
 
 .blog-post {
-	width: 50%;
+	float: left;
+	width: 580px;
+	
 	
 }
 
@@ -89,6 +91,36 @@ a.read-more-link {
 	text-transform: uppercase;
 }
 
+/* ******************** Twitter Feed ******************************* */
+
+.recent-tweets {
+	float: left;
+	width: 580px;
+}
+
+.sidebar-tweets h4 {
+	font-size: 18px;
+	font-family: 'Shanti', sans-serif;
+	color: #a6a6a6;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.sidebar-tweets h2 {
+	color: #000;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+}
+
+a.follow-us {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
 /********************** Case Studies on Homepage ********************/
 
 
@@ -136,7 +168,7 @@ div.blog-post h4 {
 }
 
 div.blog-post p {
-	    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 500;
     width: 85%;
