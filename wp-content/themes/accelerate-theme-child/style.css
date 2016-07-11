@@ -338,16 +338,17 @@ div#ninja_forms_field_2_div_wrap.field-wrap.text-wrap.label-above {
 	float: left;
 	width: 350px;
 	margin: 0 0 10px 0;
-	
+	padding: 0 0px 0 0;
 }
 
-input#ninja_forms_field_2.ninja-forms-field.email {
-	margin: 0;
+input#ninja_forms_field_2.ninja-forms-field {
+	width: 100%;
 }
 
 div#ninja_forms_field_3_div_wrap.field-wrap.text-wrap.label-above {
 	width: 100%;
 }
+
 
 textarea#ninja_forms_field_3.ninja-forms-field {
 	/*clear: both;*/
@@ -506,7 +507,7 @@ div.services-images-archive {
 
 /* ***********************ABOUT PAGE BUTTON ********************* */
 
-section.about-button div {
+section.about-button {
 	
 	margin: 80px 0 20px 300px;
 	
