@@ -99,6 +99,9 @@ a.read-more-link {
     text-transform: uppercase;
 }
 
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets {
+	padding: 0;
+}
 /* ******************** Twitter Feed ******************************* */
 
 .recent-tweets {
