@@ -28,7 +28,7 @@ get_header(); ?>
 <!-- start featured work -->
 <section class="featured-work">
 	<div class="site-content">
-		<h4>Featured Work</h4>
+		<h4 id="featured-hero">Featured Work</h4>
 	
 		<ul class="homepage-featured-work">
 		<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
@@ -65,17 +65,13 @@ get_header(); ?>
 	</div>
 </section>
 <section class="recent-tweets">
-	<div class="sidebar-tweets">
-		<h4>Recent Tweet</h4>
-		<h2>@megmillerhilo</h2>
-	</div>
-	<div>
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-	</div>
-	<div id="secondary" class="widget-area" role="complementary">
-		<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		<a class="follow-us" href="https://twitter.com/megmillerhilo">Follow Us <span>&rsaquo;</span></a>
-	</div>
-</section>
+	<h4>Recent Tweet</h4>
+	<h2>@MegMillerHilo</h2>
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	<a href="http://twitter.com/megmillerhilo" class="follow-us-link">Follow Us <span>&rsaquo;</span></a>
+</div>
 <?php endif; ?>
 <?php get_footer(); ?>
