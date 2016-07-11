@@ -48,6 +48,7 @@ ul#menu-top-nav.nav-menu a {
 	text-align: center;
 }
 h4#featured-hero {
+	text-align:center;
 	margin-bottom: 60px;
 }
 .site-footer {
@@ -182,6 +183,9 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	text-transform: uppercase;
+}
 section.recent-posts {
 	margin: 0 160px;
 }
@@ -361,6 +365,7 @@ h4#services-hero-head {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	margin: 0 0 20px 0;
+	text-align: center;
 }
 
 p#services-hero-text {
