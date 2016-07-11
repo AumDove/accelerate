@@ -132,9 +132,7 @@ ul.tweets  {
 	margin: 40px 0 40px 0;
 }
 
-.widget {
-	padding: 0;
-}
+
 
 a.follow-us-link {
 	font-size: 18px;
@@ -145,6 +143,53 @@ a.follow-us-link {
 }
 
 div#secondary.widget-area {
+	clear: both;
+}
+
+
+/* ******************** Blog Sidebar ***************************** */
+
+aside#text-2.widget.widget_text h2{
+	
+	margin: 5px 0 20px 5px;
+}
+
+h2.widget-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+input {
+    height: 37px;
+    border: 1px solid #BFBFBF;
+    line-height: 25px;
+    padding: 5px 10px;
+    background: #fff;
+    vertical-align: middle;
+    margin: 20px 0 0 0;
+    font: 16px 'OpenSans', Arial, sans-serif;
+}
+
+input.submit {
+	background: none repeat scroll 0 0 #45ac9d;
+	color: #fff;
+	margin: 30px 40px 30px 100px;
+	padding: 10px;
+	text-transform: uppercase;
+	
+}
+
+div.textwidget form {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 5px 2px 0 0;
+}
+
+aside#recent-posts-2.widget.widget_recent_entries {
 	clear: both;
 }
 /********************** Case Studies on Homepage ********************/
